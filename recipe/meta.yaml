@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/datawizard_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/datawizard/datawizard_{{ version }}.tar.gz
-  sha256: 91deca5ae2e0fed52c443f9b31da2f05bea6d8755fdd49fdd63ca27d6d8109e5
+  sha256: f30b42e0b35fc6669d5a8077679a560ba3453a62ab098ab4d4b4bc6642c51467
 
 build:
   merge_build_host: true  # [win]
