@@ -1,11 +1,11 @@
-About r-datawizard
-==================
+About r-datawizard-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-datawizard-feedstock/blob/main/LICENSE.txt)
 
 Home: https://easystats.github.io/datawizard/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-datawizard-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lightweight package to easily manipulate, clean, transform, and prepare your data for analysis. It also forms the data wrangling backend for the packages in the 'easystats' ecosystem.
 
