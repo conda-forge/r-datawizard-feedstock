@@ -1,6 +1,5 @@
 {% set version = "0.11.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-datawizard
@@ -13,8 +12,7 @@ source:
   sha256: 933470bcddb0567fd4192218caeb79393e0203578422aed3015ff74e9d99f031
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
