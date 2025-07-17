@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/datawizard_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/datawizard/datawizard_{{ version }}.tar.gz
-  sha256: e37d5d51fd80de9fc7756cd62a7fb0ac63821c57419964ac4d283a51502a94ff
+  sha256: 33441c64e6e13975ce7151cd1e6e71da82b6e50954ba647b89a08d481e25cd39
 
 build:
   number: 0
